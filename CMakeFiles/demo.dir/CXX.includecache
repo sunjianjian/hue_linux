@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sunjian/projects/hue/demo.cpp
+hue.h
+/home/sunjian/projects/hue/hue.h
+stdio.h
+-
+
+/home/sunjian/projects/hue/hue.cpp
+hue.h
+/home/sunjian/projects/hue/hue.h
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+errno.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+curl/curl.h
+-
+zconf.h
+-
+
+/home/sunjian/projects/hue/hue.h
+pthread.h
+-
+string
+-
+

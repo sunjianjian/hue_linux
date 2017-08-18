@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/demo.dir/demo.cpp.o CMakeFiles/demo.dir/hue.cpp.o  -o demo  -L/home/sunjian/projects/hue/. -Wl,-rpath,/home/sunjian/projects/hue/. -lpthread -lcurl 
